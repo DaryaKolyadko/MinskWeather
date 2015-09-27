@@ -1,5 +1,6 @@
 #!/bin/bash
 # shows forecast for Minsk each 5 seconds
+
 . ./config.ini
 URL=https://pogoda.yandex.by/
 while true
@@ -12,3 +13,4 @@ do
 	rm index.html
 	sleep $time
 done
+
